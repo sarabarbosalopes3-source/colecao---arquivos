@@ -17,11 +17,9 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 
-from series.views import api_series
-from series.views import Resumo
-
+from series.views import api_series, resumo
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('api/series/', api_series),
-    path('api/series/resumo', Resumo),
-]
+    path('api/series/resumo/', resumo),
+    ]
