@@ -11,7 +11,6 @@ Variante: Séries
 Rodar backend:
 
 cd colecao
-cd colecao
 python manage.py migrate
 python manage.py runserver
 
@@ -19,6 +18,5 @@ Rodar frontend:
 
 cd colecao
 cd frontend
-
 npm install
 npm run dev
