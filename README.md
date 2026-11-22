@@ -12,6 +12,7 @@ Rodar backend:
 
 cd colecao
 cd colecao
+python manage.py migrate
 python manage.py runserver
 
 Rodar frontend:
