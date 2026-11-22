@@ -8,15 +8,19 @@ Sara Barbosa Lopes (11261102795)
 
 Variante: Séries
 
-Rodar backend:
+##Como executar o projeto
+
+###Backend (Django)
 
 cd colecao
 python manage.py migrate
 python manage.py runserver
 
-Rodar frontend:
 
-cd colecao
+###Frontend (React)
+
+Em outro terminal, na pasta raiz do projeto:
+
 cd frontend
 npm install
 npm run dev
